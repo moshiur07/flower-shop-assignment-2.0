@@ -1,0 +1,92 @@
+* {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+/* Banner styles */
+header {
+    /* background-color:rgba(229, 161, 176, 0.949); */
+    background: rgba(229, 84, 115, 0.10);
+    height: 800px;
+}
+
+.banner-container {
+    display: flex;
+    padding: 120px 200px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.banner-des {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.button-primary {
+    border: 0;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    padding: 20px 40px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.banner-container img {
+    width: 500px;
+    height: 680px;
+}
+
+/* Instagram Section */
+section {
+    margin: 120px 240px;
+}
+
+.section-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.section-des {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+
+.insta-img {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*Latest Deal section */
+.deal-section {
+    background-image: url('../images/Rectangle\ 9.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 1540px;
+    height: 449px;
+}
+.container-deal{
+    padding: 120px 300px;
+}
+.container-deal input{
+    width: 700px;
+height: 64px;
+border: 0;
+border-radius: 8px;
+padding-left: 22px;
+}
